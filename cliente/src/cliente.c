@@ -37,9 +37,10 @@ int main(void)
 
 	/*---------------------------------------------------PARTE 3-------------------------------------------------------------*/
 
-	//antes de continuar, tenemos que asegurarnos que el servidor esté corriendo porque lo necesitaremos para lo que sigue.
+	// Antes de continuar, tenemos que asegurarnos que el servidor esté corriendo porque lo necesitaremos para lo que sigue.
 
-	//crear conexion
+	// Creamos una conexión hacia el servidor
+	conexion = crear_conexion(ip, puerto);
 
 	//enviar CLAVE al servirdor
 
