@@ -1,10 +1,3 @@
-/*
- * main.c
- *
- *  Created on: 28 feb. 2019
- *      Author: utnso
- */
-
 #include "cliente.h"
 
 int main(void)
@@ -27,8 +20,6 @@ int main(void)
 
 	// Usando el config creado previamente
 	// Lee las variables de IP, Puerto y Valor
-	// Spoiler: Revisa commons/config.h
-
 
 	//Loggear valor de config
 
@@ -47,27 +38,22 @@ int main(void)
 	paquete(conexion);
 
 	terminar_programa(conexion, logger, config);
+
+	/*---------------------------------------------------PARTE 5-------------------------------------------------------------*/
+	// Proximamente
 }
 
 t_log* iniciar_logger(void)
 {
-	// Para iniciar un logger, vas a tener que usar las funciones de logs
-	// Estas funciones las vamos a encontrar en commons\log.h
 	t_log* nuevo_logger;
 
-	// Vamos a retornar el logger que acabamos de crear
-	// El problema es que si no lo creamos, al usarlo va a explotar.
 	return nuevo_logger;
 }
 
 t_config* iniciar_config(void)
 {
-	// Para iniciar un logger, vas a tener que usar las funciones de logs
-	// Estas funciones las vamos a encontrar en commons\config.h
 	t_config* nuevo_config;
 
-	// Vamos a retornar el config que acabamos de crear
-	// El problema es que si no lo creamos, al usarlo va a explotar.
 	return nuevo_config;
 }
 

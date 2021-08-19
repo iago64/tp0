@@ -1,10 +1,3 @@
-/*
- * Cliente.h
- *
- *  Created on: 28 feb. 2019
- *      Author: utnso
- */
-
 #ifndef CLIENTE_H_
 #define CLIENTE_H_
 
